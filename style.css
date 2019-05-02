@@ -1,0 +1,34 @@
+root {
+  display: block;
+  margin: 2em 1em;
+  border: 4px solid #cdf;
+  padding: 0px 1em;
+  background-color: yellow;
+  }
+
+date {
+  display: block;
+  margin-bottom: 1em;
+  }
+
+Nume {
+  display: block;
+  font-weight: bold;
+  font-size: 150%;
+  }
+
+Prenume {
+  display: block;
+  }
+
+Prenume:before {
+  content: "Area: ";
+  }
+
+Username {
+  display: block;
+  }
+
+Username:before {
+  content: "Username: ";
+  }
